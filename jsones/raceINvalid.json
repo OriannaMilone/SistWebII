@@ -11,7 +11,7 @@
             "driver_id": "123e4567-2222-12d3-a456-426655440000",
             "name": "Franco Colapinto",
             "lap_time" : 85,
-            "sector_times" : [15, 35]
+            "sector_times" : [15, 35, 5, 4]
         }
     }
 }

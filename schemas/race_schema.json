@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://example.com/product.schema.json",
     "title": "Race",
     "description": "An automobile race data",
@@ -75,8 +75,7 @@
                 },
                 "lap_time": {
                     "type": [
-                        "number",
-                        null
+                        "number", "null"
                     ],
                     "description": "Seconds in which a driver completes a lap"
                 },
@@ -88,7 +87,11 @@
                     "maxItems": 3
                 }
             },
-            "required": ["driver_id", "lap_time", "sector_times"]
+            "required": [
+                "driver_id",
+                "lap_time",
+                "sector_times"
+            ]
         }
     }
 }

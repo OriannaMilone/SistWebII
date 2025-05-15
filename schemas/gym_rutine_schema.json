@@ -1,9 +1,9 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://example.com/product.schema.json",
     "title": "GYM Rutine",
     "description": "A weekly exercise planning",
-    "type": "object", 
+    "type": "object",
     "properties": {
         "gym_center": {
             "type": "string",
@@ -14,11 +14,11 @@
             "properties": {
                 "start_session": {
                     "type": "string",
-                    "format" : "date-time"
+                    "format": "date-time"
                 },
                 "end_session": {
                     "type": "string",
-                    "format" : "date-time"
+                    "format": "date-time"
                 }
             },
             "dependencies": {
@@ -69,7 +69,7 @@
     },
     "required": [
         "gym_center",
-        "rutine_duration", 
+        "rutine_duration",
         "week_day"
     ],
     "$defs": {
