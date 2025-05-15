@@ -1,0 +1,18 @@
+{
+    "gym_center": "El retiro Park",
+    "rutine_duration": {
+        "start_session": "2025-05-15T14:30:00+02:00",
+        "end_session": "2025-05-15T15:30:00+02:00"
+    },
+    "week_day": "monday",
+    "core" : {
+        "abs" : ["russian twist", "bicycle crunch"],
+        "obliques": 1,
+        "planks": "militar"
+    },
+    "upper_body": {
+        "pushups": 30,
+        "pullups": 15,
+        "dumbbells": ["hammer", "clasic curl"]
+    }
+}

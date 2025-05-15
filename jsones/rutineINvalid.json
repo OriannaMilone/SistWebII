@@ -1,0 +1,12 @@
+{
+    "gym_center": "El retiro Park",
+    "rutine_duration": {
+        "end_session": "2025-05-15T15:30:00+02:00"
+    },
+    "week_day": "monday",
+    "upper_body": {
+        "pushups": 30,
+        "pullups": 15,
+        "dumbbells": ["hammer", "clasic curl"]
+    }
+}

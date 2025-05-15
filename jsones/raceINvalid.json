@@ -1,0 +1,17 @@
+{
+    "race_id": "123e4567-e89b-12d3-a456-426655440000",
+    "race_type": "historical",
+    "organization": "F1",
+    "race_date": "2025-05-15T14:30:00+02:00",
+    "circuit": 2,
+    "lap" : {
+        "lap_id": "123e4567-e89b-0000-a456-426655440000",
+        "lap_number": 2,
+        "driver": {
+            "driver_id": "123e4567-2222-12d3-a456-426655440000",
+            "name": "Franco Colapinto",
+            "lap_time" : 85,
+            "sector_times" : [15, 35]
+        }
+    }
+}
