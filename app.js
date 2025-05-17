@@ -13,6 +13,10 @@ addFormats(ajv)
 const raceSchema = require("./schemas/race_schema.json");
 const rutineSchema = require("./schemas/gym_rutine_schema.json");
 
+const booksRoutes = require('./routes/books')
+
+app.use('/', booksRoutes)
+
 app.post('/race', (req, res) => {
   const validateRace = ajv.compile(raceSchema);
   const isValid = validateRace(req.body);
